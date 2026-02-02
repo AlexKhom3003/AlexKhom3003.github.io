@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "home": "Start",
+    "about": "Over mij",
+    "experience": "Ervaring",
+    "projects": "Projecten",
+    "contact": "Contact"
+  },
+  "hero": {
+    "subtitle": "Hallo, mijn naam is",
+    "role": "Junior Java Ontwikkelaar",
+    "text": "Gefocust op fundamentals, clean code\nen echte backend systemen.",
+    "viewProjects": "Bekijk projecten",
+    "downloadCv": "CV downloaden"
+  },
+  "about": {
+    "subtitle": "Wie ben ik",
+    "title": "Over mij.",
+    "text": "Ik ben een Junior Java Backend Developer die zijn opleiding afrondt en zich actief voorbereidt op werken in echte productieomgevingen, niet alleen academische projecten."
+  },
+  "skills": {
+    "title": "Kernvaardigheden",
+    "subtitle": "Backend-gerichte Java ontwikkelaar met een solide full-stack basis"
+  },
+  "experience": {
+    "title": "Java Backend Developer (Opleiding & Projecten)",
+    "text": "2025 – Heden · INTEC Brussel"
+  },
+  "projects": {
+    "subtitle": "Mijn werk",
+    "title": "Projecten",
+    "viewAll": "Bekijk alle projecten op GitHub"
+  },
+  "contact": {
+    "subtitle": "Neem contact op",
+    "title": "Contact"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "subtitle": "Hi, my name is",
+    "role": "Junior Java Developer",
+    "text": "Focused on fundamentals, clean code,\nand real-world backend systems.",
+    "viewProjects": "View Projects",
+    "downloadCv": "Download CV"
+  },
+  "about": {
+    "subtitle": "Who am I",
+    "title": "About.",
+    "text": "I’m a Junior Java Backend Developer completing my training and actively preparing to work in real production environments, not just academic projects."
+  },
+  "skills": {
+    "title": "Core Skills",
+    "subtitle": "Backend-focused Java developer with a solid full-stack foundation"
+  },
+  "experience": {
+    "title": "Java Backend Developer (Training & Projects)",
+    "text": "2025 – Present · INTEC Brussel"
+  },
+  "projects": {
+    "subtitle": "My Work",
+    "title": "Projects",
+    "viewAll": "View all projects on GitHub"
+  },
+  "contact": {
+    "subtitle": "Get in Touch",
+    "title": "Contact"
+  }
+}
