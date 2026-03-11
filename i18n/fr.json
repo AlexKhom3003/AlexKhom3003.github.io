@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "experience": "Expérience",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "hero": {
+    "subtitle": "Bonjour, je m'appelle",
+    "role": "Développeur Java Junior",
+    "text": "Axé sur les bases, le clean code\net les systèmes backend réels.",
+    "viewProjects": "Voir les projets",
+    "downloadCv": "Télécharger le CV"
+  },
+  "about": {
+    "subtitle": "Qui suis-je",
+    "title": "À propos.",
+    "text": "Je suis un développeur Java Backend junior qui termine sa formation et se prépare activement à travailler dans des environnements de production réels, pas seulement des projets académiques."
+  },
+  "skills": {
+    "title": "Compétences clés",
+    "subtitle": "Développeur Java orienté backend avec une base full-stack solide"
+  },
+  "experience": {
+    "title": "Développeur Java Backend (Formation & Projets)",
+    "text": "2025 – Présent · INTEC Bruxelles"
+  },
+  "projects": {
+    "subtitle": "Mon travail",
+    "title": "Projets",
+    "viewAll": "Voir tous les projets sur GitHub"
+  },
+  "contact": {
+    "subtitle": "Entrer en contact",
+    "title": "Contact"
+  }
+}

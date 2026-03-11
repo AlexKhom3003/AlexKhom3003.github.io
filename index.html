@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="meta.title">Portfolio | Aleksandr Khomenko</title>
+
+ 
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet">
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+ 
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="container">
+    <nav class="topnav">
+
+      
+      <a class="logo" href="#home" aria-label="Home" data-i18n="nav.home" data-i18n-attr="aria-label">
+        <img src="img/logo-ak.png" alt="AK Logo" class="logo__img">
+      </a>
+
+     
+      <div class="topnav__links">
+        <a class="topnav__link" href="#home" data-i18n="nav.home">Home</a>
+        <a class="topnav__link" href="#about" data-i18n="nav.about">About</a>
+        <a class="topnav__link" href="#skills" data-i18n="nav.skills">Skills</a>
+        <a class="topnav__link" href="#experience" data-i18n="nav.experience">Experience</a>
+        <a class="topnav__link" href="#projects" data-i18n="nav.projects">Projects</a>
+        <a class="topnav__link" href="#contact" data-i18n="nav.contact">Contact</a>
+      </div>
+
+      
+      <div class="lang-switch">
+        <button class="lang-switch__btn is-active" data-lang="en" type="button">EN</button>
+        <span>/</span>
+        <button class="lang-switch__btn" data-lang="nl" type="button">NL</button>
+        <span>/</span>
+        <button class="lang-switch__btn" data-lang="fr" type="button">FR</button>
+      </div>
+
+    </nav>
+  </div>
+</header>
+<main class="main">
+<section id="home" class="hero">
+  <div class="container">
+    <div class="row g-4 align-items-center">
+
+      <div class="col-lg-6 hero-content">
+        <p class="hero-subtitle" data-i18n="hero.subtitle">Hi, my name is</p>
+
+        <h1 class="hero-title">Aleksandr Khomenko</h1>
+
+        <h2 class="hero-role" data-i18n="hero.role">Junior Java Developer</h2>
+
+        <p class="hero-text" data-i18n="hero.text">
+          Focused on fundamentals, clean code, <br>and real-world backend systems.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-solid me-2" data-i18n="hero.viewProjects">View Projects</a>
+          <a
+            href="CV/Aleksandr_Khomenko_CV.pdf"
+            class="btn btn-ghost"
+            download
+            data-i18n="hero.downloadCv">
+            Download CV
+          </a>
+        </div>
+        
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section id="about" class="section section--alt">
+  <div class="container">
+
+    <header class="section-header">
+      <p class="section-subtitle" data-i18n="about.subtitle">Who am I</p>
+      <h2 class="section-title" data-i18n="about.title">About.</h2>
+    </header>
+
+    <div class="row">
+      <div class="col-lg-9">
+        <p class="section-text" data-i18n="about.text">
+          I’m a Junior Java Backend Developer completing my training and actively preparing to work in real production environments, not just academic projects.
+
+My foundation is built on Java Core (OOP, Collections, Streams) and continues through Spring / Spring Boot, REST APIs, SQL, JPA / Hibernate, and basic backend testing. I also work with HTML & CSS, which helps me understand how backend systems integrate with user-facing products.
+
+As a junior, my strength is how I learn and think, not years of experience. I focus on:
+
+Understanding why things work, not just how
+
+Reading and navigating existing codebases
+
+Writing code that is clear, structured, and maintainable
+
+Improving through feedback and iteration
+
+I’m comfortable spending time with complex logic, unfamiliar code, and mistakes, because that’s where real learning happens. I don’t look for shortcuts — I’m building a strong engineering base that will scale with experience.
+
+I’m looking for a junior backend role in enterprise teams, scale-ups, or technology-driven companies, including environments connected to blockchain and modern infrastructure, where I can grow under experienced engineers and contribute meaningfully over time.
+        </p>
+        
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section id="skills" class="section skills">
+  <div class="container">
+
+    <h2 class="section-title" data-i18n="skills.title">Core Skills</h2>
+    <p class="section-subtitle" data-i18n="skills.subtitle">
+      Backend-focused Java developer with a solid full-stack foundation
+    </p>
+
+    <div class="skills-split">
+
+      
+      <div class="skill-block primary">
+        <h3 data-i18n="skills.backend.title">Backend & Java</h3>
+        <ul>
+          <li data-i18n="skills.backend.fundamentals">Java Fundamentals & OOP</li>
+          <li data-i18n="skills.backend.collections">Collections, Streams, Lambdas</li>
+          <li data-i18n="skills.backend.data">JDBC, SQL, JPA / Hibernate</li>
+          <li data-i18n="skills.backend.spring">Spring & Spring Boot</li>
+          <li data-i18n="skills.backend.rest">REST APIs & Security</li>
+          <li data-i18n="skills.backend.testing">Testing (JUnit, Mockito)</li>
+        </ul>
+        <span class="skill-weight">≈ 70%</span>
+      </div>
+
+      
+      <div class="skill-block">
+        <h3 data-i18n="skills.frontend.title">Frontend Foundation</h3>
+        <ul>
+          <li data-i18n="skills.frontend.html">HTML (semantic, accessibility)</li>
+          <li data-i18n="skills.frontend.css">CSS (Flexbox, Grid)</li>
+          <li data-i18n="skills.frontend.js">JavaScript & TypeScript basics</li>
+          <li data-i18n="skills.frontend.angular">Angular fundamentals</li>
+        </ul>
+        <span class="skill-weight">≈ 20%</span>
+      </div>
+
+     
+      <div class="skill-block">
+        <h3 data-i18n="skills.engineering.title">Engineering Practices</h3>
+        <ul>
+          <li data-i18n="skills.engineering.git">Git & GitHub workflow</li>
+          <li data-i18n="skills.engineering.uml">UML & system analysis</li>
+          <li data-i18n="skills.engineering.cleanCode">Clean Code principles</li>
+          <li data-i18n="skills.engineering.agile">Agile / teamwork</li>
+          <li data-i18n="skills.engineering.docker">Docker basics</li>
+        </ul>
+        <span class="skill-weight">≈ 10%</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<section id="experience" class="section">
+  <div class="container">
+    <h3 class="section-title" data-i18n="experience.sectionTitle">Experience</h3>
+    <div class="project-card h-100 is-primary">
+      <div class="project-content">
+        
+        <h5 class="project-title" data-i18n="experience.roleTitle">
+          Java Backend Developer (Training & Projects)
+        </h5>
+
+        <p class="project-text" data-i18n="experience.details">
+          <strong>2025 – Present · INTEC Brussel</strong><br><br>
+
+          • Built backend-focused Java applications using OOP and clean code principles<br>
+          • Implemented business logic with Collections, Streams, and file-based persistence<br>
+          • Worked with SQL, JDBC, and basic JPA/Hibernate concepts<br>
+          • Designed REST-style APIs using Spring Boot fundamentals<br>
+          • Read and improved existing codebases, focusing on clarity and maintainability<br>
+          • Used Git and GitHub for version control and iterative development
+        </p>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+<section id="projects" class="section section--alt">
+  <div class="container">
+
+    <header class="section-header text-center mb-5">
+      <p class="section-subtitle" data-i18n="projects.subtitle">My Work</p>
+      <h2 class="section-title" data-i18n="projects.title">Projects</h2>
+    </header>
+
+
+
+    <div class="row g-4">
+
+      <!-- Project 1 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="project-card h-100">
+          <div class="project-content">
+            <h5 class="project-title">Slot Machine (Java OOP)</h5>
+            <p class="project-text" data-i18n="projects.slot.description">
+              Console-based Java application demonstrating OOP principles,
+              game logic, Random usage, and file-based persistence.
+            </p>
+            <a
+              class="project-link"
+              href="https://github.com/Aleksandr-Khomenko-dev/SlotMachine"
+              target="_blank"
+              rel="noopener">
+              <i class="fa-brands fa-github"></i>
+              <span data-i18n="projects.viewOnGitHub">View on GitHub →</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Project 2 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="project-card h-100">
+          <div class="project-content">
+            <h5 class="project-title">Animal Shelter (Advanced Java)</h5>
+            <p class="project-text" data-i18n="projects.animal.description">
+              Advanced Java project using abstract classes, interfaces,
+              enums, polymorphism, and business rules simulation.
+            </p>
+            <a
+              class="project-link"
+              href="https://github.com/Aleksandr-Khomenko-dev/VaccinatieProject"
+              target="_blank"
+              rel="noopener">
+              <i class="fa-brands fa-github"></i>
+              <span data-i18n="projects.viewOnGitHub">View on GitHub →</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Project 3 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="project-card h-100">
+          <div class="project-content">
+            <h5 class="project-title">Collections & Streams Exercises</h5>
+            <p class="project-text" data-i18n="projects.collections.description">
+              Practice-focused repository covering Java Collections,
+              Stream API, filtering, mapping, and aggregation logic.
+            </p>
+            <a
+              class="project-link"
+              href="https://github.com/Aleksandr-Khomenko-dev/Obdracht-Collections"
+              target="_blank"
+              rel="noopener">
+              <i class="fa-brands fa-github"></i>
+              <span data-i18n="projects.viewOnGitHub">View on GitHub →</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Project 4 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="project-card h-100">
+          <div class="project-content">
+            <h5 class="project-title">Student Stream Project</h5>
+            <p class="project-text" data-i18n="projects.student.description">
+              Java Stream API project focused on real-world data processing,
+              lambda expressions, and clean functional style.
+            </p>
+            <a
+              class="project-link"
+              href="https://github.com/Aleksandr-Khomenko-dev/Student-Project-Stream"
+              target="_blank"
+              rel="noopener">
+              <i class="fa-brands fa-github"></i>
+              <span data-i18n="projects.viewOnGitHub">View on GitHub →</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Project 5 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="project-card h-100">
+          <div class="project-content">
+            <h5 class="project-title">SQL & Database Fundamentals</h5>
+            <p class="project-text" data-i18n="projects.sql.description">
+              SQL-focused project with queries, joins, and relational
+              database concepts applied to real datasets.
+            </p>
+            <a
+              class="project-link"
+              href="https://github.com/Aleksandr-Khomenko-dev/MoviesProjSQL"
+              target="_blank"
+              rel="noopener">
+              <i class="fa-brands fa-github"></i>
+              <span data-i18n="projects.viewOnGitHub">View on GitHub →</span>
+            </a>
+          </div>
+        </div>
+        
+      </div>
+      
+      
+    
+    </div>
+    <div class="text-center mt-5">
+      <a
+        href="https://github.com/Aleksandr-Khomenko-dev"
+        target="_blank"
+        rel="noopener"
+        class="btn btn-ghost"
+        data-i18n="projects.viewAll">
+        View all projects on GitHub
+      </a>
+    </div>
+    
+    
+</section>
+
+
+<section id="contact" class="section">
+  <div class="container">
+
+    <header class="section-header text-center mb-4">
+      <p class="section-subtitle" data-i18n="contact.subtitle">Get in Touch</p>
+      <h2 class="section-title" data-i18n="contact.title">Contact</h2>
+    </header>
+
+    <div class="row justify-content-center">
+      <div class="col-md-9 col-lg-7">
+        <form
+  class="contact-form"
+  action="https://formspree.io/f/mojlbodw"
+  method="POST"
+  id="contactForm"
+>
+
+  <div class="mb-3">
+    <label class="form-label" data-i18n="contact.email">Email</label>
+    <input
+      type="email"
+      name="email"
+      class="form-control"
+      placeholder="your@email.com"
+      data-i18n="contact.emailPlaceholder"
+      data-i18n-attr="placeholder"
+      required
+    >
+  </div>
+
+  <div class="mb-4">
+    <label class="form-label" data-i18n="contact.message">Message</label>
+    <textarea
+      name="message"
+      class="form-control"
+      rows="5"
+      required
+    ></textarea>
+  </div>
+
+  <div class="text-center">
+    <button class="btn btn-solid px-5" type="submit" data-i18n="contact.submit">
+      Send Message
+    </button>
+  </div>
+
+</form>
+
+<!-- Success message -->
+<div id="formSuccess" class="form-success d-none">
+  <h4 data-i18n="contact.successTitle">Thank you for your message</h4>
+  <p data-i18n="contact.successText">
+    I appreciate your interest and will get back to you as soon as possible.
+  </p>
+</div>
+
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+
+      <p class="footer-text mb-0">© 2026 Aleksandr Khomenko</p>
+
+      <div class="footer-links">
+        <a class="icon" href="https://github.com/Aleksandr-Khomenko-dev" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a class="icon" href="https://www.linkedin.com/in/aleksandr-khomenko-java/" target="_blank">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a class="icon" href="https://x.com/AleksKhom" target="_blank">
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+        <a class="icon" href="https://www.instagram.com/aleksandr.khomenko/" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</footer>
+<script src="js/translations.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
