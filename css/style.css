@@ -469,16 +469,101 @@ section {
 }
 .form-success {
   text-align: center;
-  padding: 40px 20px;
-  border: 1px solid rgba(255,255,255,.15);
+  padding: 40px 24px;
+  border: 1px solid rgba(255,255,255,.16);
   border-radius: 12px;
-  background: rgba(255,255,255,.04);
+  background: linear-gradient(145deg, rgba(255,255,255,.08), rgba(255,255,255,.03));
+  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.18);
 }
 
 .form-success h4 {
+  font-size: 1.45rem;
   margin-bottom: 10px;
 }
 
 .form-success p {
   opacity: .85;
+}
+
+.form-success__icon,
+.contact-toast__icon {
+  display: grid;
+  place-items: center;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #062814;
+  background: linear-gradient(135deg, #8ef0b4, #5ccf8c);
+  box-shadow: 0 10px 24px rgba(92, 207, 140, 0.35);
+}
+
+.form-success__icon {
+  width: 72px;
+  height: 72px;
+  margin: 0 auto 18px;
+  border-radius: 999px;
+}
+
+#sendAnotherMessage {
+  margin-top: 10px;
+}
+
+.contact-form.is-submitting .btn {
+  opacity: 0.72;
+}
+
+.contact-toast {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 1100;
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  width: min(360px, calc(100vw - 32px));
+  padding: 16px 18px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 18px;
+  background: rgba(11, 18, 32, 0.95);
+  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.28);
+  opacity: 0;
+  transform: translateY(14px);
+  pointer-events: none;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.contact-toast.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.contact-toast__icon {
+  width: 46px;
+  height: 46px;
+  flex: 0 0 auto;
+  border-radius: 14px;
+}
+
+.contact-toast__content {
+  min-width: 0;
+}
+
+.contact-toast__title {
+  display: block;
+  margin-bottom: 4px;
+  color: #f7f9fc;
+}
+
+.contact-toast__text {
+  margin: 0;
+  color: rgba(247, 249, 252, 0.84);
+  line-height: 1.5;
+}
+
+@media (max-width: 640px) {
+  .contact-toast {
+    right: 16px;
+    left: 16px;
+    bottom: 16px;
+    width: auto;
+  }
 }

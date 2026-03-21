@@ -22,55 +22,49 @@ window.TRANSLATIONS = Object.freeze({
       subtitle: "Who am I",
       title: "About.",
       text:
-        "I'm a Junior Java Backend Developer completing my training and actively preparing to work in real production environments, not just academic projects.<br><br>" +
-        "My foundation is built on Java Core (OOP, Collections, Streams) and continues through Spring / Spring Boot, REST APIs, SQL, JPA / Hibernate, and basic backend testing. I also work with HTML & CSS, which helps me understand how backend systems integrate with user-facing products.<br><br>" +
-        "As a junior, my strength is how I learn and think, not years of experience. I focus on:<br><br>" +
-        "Understanding why things work, not just how<br><br>" +
-        "Reading and navigating existing codebases<br><br>" +
-        "Writing code that is clear, structured, and maintainable<br><br>" +
-        "Improving through feedback and iteration<br><br>" +
-        "I'm comfortable spending time with complex logic, unfamiliar code, and mistakes, because that's where real learning happens. I don't look for shortcuts - I'm building a strong engineering base that will scale with experience.<br><br>" +
-        "I'm looking for a junior backend role in enterprise teams, scale-ups, or technology-driven companies, including environments connected to blockchain and modern infrastructure, where I can grow under experienced engineers and contribute meaningfully over time."
+        "I'm a Junior Java Backend Developer currently completing the Enterprise Java Developer program at INTEC Brussel, where I'm building practical experience with backend technologies used in real projects.<br><br>" +
+        "My foundation includes Java Core, OOP, Collections, Streams, JDBC, SQL/MySQL, JPA/Hibernate, Servlets/JSP, Spring MVC, Spring Boot, REST concepts, Maven, Git, JUnit, Docker basics, and Agile teamwork. I also work with HTML, CSS, JavaScript, jQuery, and Angular basics, which helps me understand the full flow between backend systems and user-facing applications.<br><br>" +
+        "What defines me most is not seniority, but discipline and consistency: I learn fast, read existing code carefully, and improve through feedback. During training, my strongest points were analytical thinking, independent work, attention to detail, and a structured way of solving problems.<br><br>" +
+        "I'm looking for a junior backend role where I can keep growing under experienced engineers, contribute to real production systems, and build a strong long-term engineering base."
     },
     skills: {
       title: "Core Skills",
-      subtitle: "Backend-focused Java developer with a solid full-stack foundation",
+      subtitle: "Enterprise Java training with a strong backend focus and practical full-stack exposure",
       backend: {
         title: "Backend & Java",
-        fundamentals: "Java Fundamentals & OOP",
-        collections: "Collections, Streams, Lambdas",
-        data: "JDBC, SQL, JPA / Hibernate",
-        spring: "Spring & Spring Boot",
-        rest: "REST APIs & Security",
-        testing: "Testing (JUnit, Mockito)"
+        fundamentals: "Java Core, OOP, Collections & Streams",
+        collections: "Spring, Spring Boot & Spring MVC",
+        data: "JDBC, SQL & MySQL",
+        spring: "JPA / Hibernate",
+        rest: "REST APIs, JSON & XML",
+        testing: "Servlets, JSP, Maven & JUnit"
       },
       frontend: {
         title: "Frontend Foundation",
-        html: "HTML (semantic, accessibility)",
-        css: "CSS (Flexbox, Grid)",
-        js: "JavaScript & TypeScript basics",
-        angular: "Angular fundamentals"
+        html: "HTML (semantic structure)",
+        css: "CSS (responsive layouts)",
+        js: "JavaScript & jQuery",
+        angular: "Angular basics"
       },
       engineering: {
         title: "Engineering Practices",
         git: "Git & GitHub workflow",
-        uml: "UML & system analysis",
-        cleanCode: "Clean Code principles",
-        agile: "Agile / teamwork",
+        uml: "UML & technical analysis",
+        cleanCode: "Code quality & maintainability",
+        agile: "Scrum / Agile teamwork",
         docker: "Docker basics"
       }
     },
     experience: {
       sectionTitle: "Experience",
-      roleTitle: "Java Backend Developer (Training & Projects)",
+      roleTitle: "Enterprise Java Developer Trainee",
       details:
-        "<strong>2025 - Present · INTEC Brussel</strong><br><br>" +
-        "• Built backend-focused Java applications using OOP and clean code principles<br>" +
-        "• Implemented business logic with Collections, Streams, and file-based persistence<br>" +
-        "• Worked with SQL, JDBC, and basic JPA/Hibernate concepts<br>" +
-        "• Designed REST-style APIs using Spring Boot fundamentals<br>" +
-        "• Read and improved existing codebases, focusing on clarity and maintainability<br>" +
-        "• Used Git and GitHub for version control and iterative development"
+        "<strong>April 2025 - March 2026 · INTEC Brussel</strong><br><br>" +
+        "• Following intensive enterprise-oriented Java training focused on backend development and applied project work<br>" +
+        "• Building applications with Java Core, OOP, Collections, Streams, JDBC, SQL/MySQL, and persistence concepts<br>" +
+        "• Working with Servlets/JSP, Spring MVC, Spring Boot, JPA/Hibernate, REST concepts, and Maven-based workflows<br>" +
+        "• Using Git/GitHub, JUnit, Docker basics, and Scrum/Agile practices during exercises and team assignments<br>" +
+        "• Recognized in training feedback for analytical thinking, independence, perseverance, and a structured approach to development"
     },
     projects: {
       subtitle: "My Work",
@@ -105,8 +99,12 @@ window.TRANSLATIONS = Object.freeze({
       emailPlaceholder: "your@email.com",
       message: "Message",
       submit: "Send Message",
+      sending: "Sending...",
       successTitle: "Thank you for your message",
       successText: "I appreciate your interest and will get back to you as soon as possible.",
+      sendAnother: "Send another message",
+      toastTitle: "Message sent",
+      toastText: "Thanks for reaching out. Your message was sent successfully.",
       error: "Something went wrong. Please try again later."
     }
   },
@@ -133,55 +131,49 @@ window.TRANSLATIONS = Object.freeze({
       subtitle: "Wie ben ik",
       title: "Over mij.",
       text:
-        "Ik ben een Junior Java Backend Developer die zijn opleiding afrondt en zich actief voorbereidt op werk in echte productieomgevingen, niet alleen academische projecten.<br><br>" +
-        "Mijn basis ligt in Java Core (OOP, Collections, Streams) en loopt door naar Spring / Spring Boot, REST API's, SQL, JPA / Hibernate en basis backend-testing. Ik werk ook met HTML en CSS, wat mij helpt te begrijpen hoe backend-systemen aansluiten op producten voor gebruikers.<br><br>" +
-        "Als junior ligt mijn kracht in hoe ik leer en denk, niet in jaren ervaring. Ik focus op:<br><br>" +
-        "Begrijpen waarom dingen werken, niet alleen hoe<br><br>" +
-        "Bestaande codebases lezen en navigeren<br><br>" +
-        "Code schrijven die duidelijk, gestructureerd en onderhoudbaar is<br><br>" +
-        "Verbeteren via feedback en iteratie<br><br>" +
-        "Ik besteed graag tijd aan complexe logica, onbekende code en fouten, omdat daar echt leren gebeurt. Ik zoek geen shortcuts - ik bouw een sterke engineeringbasis op die meegroeit met ervaring.<br><br>" +
-        "Ik zoek een junior backend-rol binnen enterprise teams, scale-ups of technologiegedreven bedrijven, inclusief omgevingen rond blockchain en moderne infrastructuur, waar ik kan groeien onder ervaren engineers en op termijn echt kan bijdragen."
+        "Ik ben een Junior Java Backend Developer die momenteel de opleiding Enterprise Java Ontwikkelaar bij INTEC Brussel afrondt, waar ik praktische ervaring opbouw met backendtechnologieen die in echte projecten worden gebruikt.<br><br>" +
+        "Mijn basis omvat Java Core, OOP, Collections, Streams, JDBC, SQL/MySQL, JPA/Hibernate, Servlets/JSP, Spring MVC, Spring Boot, REST-concepten, Maven, Git, JUnit, Docker-basis en Agile teamwork. Ik werk ook met HTML, CSS, JavaScript, jQuery en Angular-basis, waardoor ik de volledige flow tussen backend-systemen en gebruikersgerichte applicaties beter begrijp.<br><br>" +
+        "Wat mij het meest typeert is niet senioriteit, maar discipline en consistentie: ik leer snel, lees bestaande code aandachtig en verbeter via feedback. Tijdens de opleiding werden vooral mijn analytisch denken, zelfstandig werken, oog voor detail en gestructureerde aanpak positief benoemd.<br><br>" +
+        "Ik zoek een junior backendfunctie waarin ik verder kan groeien onder ervaren engineers, kan bijdragen aan echte productiesystemen en een sterke engineeringbasis op lange termijn kan uitbouwen."
     },
     skills: {
       title: "Kernvaardigheden",
-      subtitle: "Backend-gerichte Java ontwikkelaar met een sterke full-stack basis",
+      subtitle: "Enterprise Java-opleiding met sterke backendfocus en praktische full-stack basis",
       backend: {
         title: "Backend & Java",
-        fundamentals: "Java fundamentals & OOP",
-        collections: "Collections, Streams, Lambda's",
-        data: "JDBC, SQL, JPA / Hibernate",
-        spring: "Spring & Spring Boot",
-        rest: "REST API's & Security",
-        testing: "Testing (JUnit, Mockito)"
+        fundamentals: "Java Core, OOP, Collections & Streams",
+        collections: "Spring, Spring Boot & Spring MVC",
+        data: "JDBC, SQL & MySQL",
+        spring: "JPA / Hibernate",
+        rest: "REST API's, JSON & XML",
+        testing: "Servlets, JSP, Maven & JUnit"
       },
       frontend: {
         title: "Frontend-basis",
-        html: "HTML (semantiek, toegankelijkheid)",
-        css: "CSS (Flexbox, Grid)",
-        js: "Basis JavaScript & TypeScript",
-        angular: "Angular fundamentals"
+        html: "HTML (semantische structuur)",
+        css: "CSS (responsieve layouts)",
+        js: "JavaScript & jQuery",
+        angular: "Angular-basis"
       },
       engineering: {
         title: "Engineeringpraktijken",
         git: "Git & GitHub workflow",
-        uml: "UML & systeemanalyse",
-        cleanCode: "Clean Code-principes",
-        agile: "Agile / teamwork",
+        uml: "UML & technische analyse",
+        cleanCode: "Codekwaliteit & onderhoudbaarheid",
+        agile: "Scrum / Agile teamwork",
         docker: "Docker-basis"
       }
     },
     experience: {
       sectionTitle: "Ervaring",
-      roleTitle: "Java Backend Developer (Opleiding & Projecten)",
+      roleTitle: "Enterprise Java Ontwikkelaar in opleiding",
       details:
-        "<strong>2025 - Heden · INTEC Brussel</strong><br><br>" +
-        "• Backend-gerichte Java-applicaties gebouwd met OOP en clean code-principes<br>" +
-        "• Businesslogica geïmplementeerd met Collections, Streams en bestandsopslag<br>" +
-        "• Gewerkt met SQL, JDBC en basisconcepten van JPA/Hibernate<br>" +
-        "• REST-achtige API's ontworpen met Spring Boot fundamentals<br>" +
-        "• Bestaande codebases gelezen en verbeterd met focus op duidelijkheid en onderhoudbaarheid<br>" +
-        "• Git en GitHub gebruikt voor versiebeheer en iteratieve ontwikkeling"
+        "<strong>April 2025 - maart 2026 · INTEC Brussel</strong><br><br>" +
+        "• Intensieve Enterprise Java-opleiding gevolgd met focus op backendontwikkeling en praktijkgerichte projecten<br>" +
+        "• Applicaties gebouwd met Java Core, OOP, Collections, Streams, JDBC, SQL/MySQL en persistentieconcepten<br>" +
+        "• Gewerkt met Servlets/JSP, Spring MVC, Spring Boot, JPA/Hibernate, REST-concepten en Maven-workflows<br>" +
+        "• Git/GitHub, JUnit, Docker-basis en Scrum/Agile toegepast tijdens oefeningen en teamopdrachten<br>" +
+        "• In feedback positief beoordeeld op analytisch denken, zelfstandigheid, doorzettingsvermogen en een gestructureerde aanpak"
     },
     projects: {
       subtitle: "Mijn werk",
@@ -216,8 +208,12 @@ window.TRANSLATIONS = Object.freeze({
       emailPlaceholder: "your@email.com",
       message: "Bericht",
       submit: "Verstuur bericht",
+      sending: "Bezig met verzenden...",
       successTitle: "Bedankt voor je bericht",
       successText: "Bedankt voor je interesse. Ik neem zo snel mogelijk contact met je op.",
+      sendAnother: "Nog een bericht sturen",
+      toastTitle: "Bericht verzonden",
+      toastText: "Bedankt voor je bericht. Het is succesvol verzonden.",
       error: "Er is iets misgegaan. Probeer het later opnieuw."
     }
   },
@@ -244,55 +240,49 @@ window.TRANSLATIONS = Object.freeze({
       subtitle: "Qui suis-je",
       title: "A propos.",
       text:
-        "Je suis un developpeur Java Backend junior qui termine sa formation et se prepare activement a travailler dans de vrais environnements de production, pas seulement sur des projets academiques.<br><br>" +
-        "Ma base repose sur Java Core (OOP, Collections, Streams) et s'etend a Spring / Spring Boot, aux API REST, a SQL, a JPA / Hibernate et aux bases du testing backend. Je travaille aussi avec HTML et CSS, ce qui m'aide a comprendre comment les systemes backend s'integrent aux produits cote utilisateur.<br><br>" +
-        "En tant que junior, ma force se situe dans ma facon d'apprendre et de reflechir, pas dans le nombre d'annees d'experience. Je me concentre sur :<br><br>" +
-        "Comprendre pourquoi les choses fonctionnent, pas seulement comment<br><br>" +
-        "Lire et parcourir des codebases existantes<br><br>" +
-        "Ecrire un code clair, structure et maintenable<br><br>" +
-        "M'ameliorer grace au feedback et a l'iteration<br><br>" +
-        "Je suis a l'aise avec la logique complexe, le code inconnu et les erreurs, parce que c'est la que l'apprentissage reel se produit. Je ne cherche pas les raccourcis - je construis une base d'ingenierie solide qui evoluera avec l'experience.<br><br>" +
-        "Je recherche un poste junior backend dans des equipes enterprise, des scale-ups ou des entreprises orientees technologie, y compris des environnements lies a la blockchain et a l'infrastructure moderne, ou je peux progresser aux cotes d'ingenieurs experimentes et contribuer de facon utile dans la duree."
+        "Je suis un developpeur Java Backend junior qui termine actuellement le programme Enterprise Java Developer a INTEC Bruxelles, ou j'acquiers une experience pratique avec des technologies backend utilisees dans de vrais projets.<br><br>" +
+        "Ma base comprend Java Core, l'OOP, Collections, Streams, JDBC, SQL/MySQL, JPA/Hibernate, Servlets/JSP, Spring MVC, Spring Boot, les concepts REST, Maven, Git, JUnit, les bases de Docker et le travail Agile. Je travaille aussi avec HTML, CSS, JavaScript, jQuery et les bases d'Angular, ce qui m'aide a comprendre l'ensemble du flux entre les systemes backend et les applications cote utilisateur.<br><br>" +
+        "Ce qui me definit le plus n'est pas l'anciennete, mais la discipline et la constance : j'apprends vite, je lis le code existant avec attention et je progresse grace au feedback. Pendant la formation, mes points forts les plus remarques ont ete la pensee analytique, l'autonomie, le sens du detail et une approche structuree des problemes.<br><br>" +
+        "Je recherche un poste junior backend ou je peux continuer a evoluer aux cotes d'ingenieurs experimentes, contribuer a de vrais systemes de production et construire une base d'ingenierie solide sur le long terme."
     },
     skills: {
       title: "Competences cles",
-      subtitle: "Developpeur Java oriente backend avec une base full-stack solide",
+      subtitle: "Formation Enterprise Java avec un fort accent backend et une base full-stack pratique",
       backend: {
         title: "Backend & Java",
-        fundamentals: "Fondamentaux Java & OOP",
-        collections: "Collections, Streams, Lambdas",
-        data: "JDBC, SQL, JPA / Hibernate",
-        spring: "Spring & Spring Boot",
-        rest: "API REST & Security",
-        testing: "Testing (JUnit, Mockito)"
+        fundamentals: "Java Core, OOP, Collections & Streams",
+        collections: "Spring, Spring Boot & Spring MVC",
+        data: "JDBC, SQL & MySQL",
+        spring: "JPA / Hibernate",
+        rest: "API REST, JSON & XML",
+        testing: "Servlets, JSP, Maven & JUnit"
       },
       frontend: {
         title: "Base frontend",
-        html: "HTML (semantique, accessibilite)",
-        css: "CSS (Flexbox, Grid)",
-        js: "Bases de JavaScript & TypeScript",
-        angular: "Fondamentaux Angular"
+        html: "HTML (structure semantique)",
+        css: "CSS (layouts responsives)",
+        js: "JavaScript & jQuery",
+        angular: "Bases d'Angular"
       },
       engineering: {
         title: "Pratiques d'ingenierie",
         git: "Workflow Git & GitHub",
-        uml: "UML & analyse systeme",
-        cleanCode: "Principes Clean Code",
-        agile: "Agile / travail en equipe",
+        uml: "UML & analyse technique",
+        cleanCode: "Qualite du code & maintenabilite",
+        agile: "Scrum / travail Agile",
         docker: "Bases de Docker"
       }
     },
     experience: {
       sectionTitle: "Experience",
-      roleTitle: "Developpeur Java Backend (Formation & Projets)",
+      roleTitle: "Developpeur Java Enterprise en formation",
       details:
-        "<strong>2025 - Present · INTEC Bruxelles</strong><br><br>" +
-        "• Developpement d'applications Java orientees backend avec les principes OOP et clean code<br>" +
-        "• Implementation de logique metier avec Collections, Streams et persistance basee sur des fichiers<br>" +
-        "• Travail avec SQL, JDBC et les bases de JPA/Hibernate<br>" +
-        "• Conception d'API de type REST avec les fondamentaux de Spring Boot<br>" +
-        "• Lecture et amelioration de codebases existantes avec un focus sur la clarte et la maintenabilite<br>" +
-        "• Utilisation de Git et GitHub pour le versioning et le developpement iteratif"
+        "<strong>Avril 2025 - mars 2026 · INTEC Bruxelles</strong><br><br>" +
+        "• Formation intensive Enterprise Java orientee backend et travail pratique sur projets<br>" +
+        "• Developpement d'applications avec Java Core, OOP, Collections, Streams, JDBC, SQL/MySQL et des concepts de persistance<br>" +
+        "• Travail avec Servlets/JSP, Spring MVC, Spring Boot, JPA/Hibernate, les concepts REST et des workflows bases sur Maven<br>" +
+        "• Utilisation de Git/GitHub, JUnit, des bases de Docker et des pratiques Scrum/Agile dans les exercices et travaux d'equipe<br>" +
+        "• Feedback de formation soulignant ma pensee analytique, mon autonomie, ma perseverance et mon approche structuree du developpement"
     },
     projects: {
       subtitle: "Mon travail",
@@ -327,8 +317,12 @@ window.TRANSLATIONS = Object.freeze({
       emailPlaceholder: "your@email.com",
       message: "Message",
       submit: "Envoyer le message",
+      sending: "Envoi en cours...",
       successTitle: "Merci pour votre message",
       successText: "Merci pour votre interet. Je vous repondrai des que possible.",
+      sendAnother: "Envoyer un autre message",
+      toastTitle: "Message envoye",
+      toastText: "Merci pour votre message. Il a ete envoye avec succes.",
       error: "Une erreur s'est produite. Veuillez reessayer plus tard."
     }
   }
