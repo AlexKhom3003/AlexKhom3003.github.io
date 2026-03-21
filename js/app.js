@@ -8,6 +8,8 @@ const toast = document.getElementById("formToast");
 const submitButton = document.getElementById("contactSubmitButton");
 const submitLabel = document.getElementById("contactSubmitLabel");
 const sendAnotherButton = document.getElementById("sendAnotherMessage");
+const cvDownloadLink = document.getElementById("downloadCvLink");
+const cvDownloadVersion = "20260321-2";
 
 let currentLang = defaultLang;
 let toastTimer;
@@ -122,6 +124,36 @@ const resetContactFormState = () => {
   form?.querySelector('input[name="email"]')?.focus();
 };
 
+const buildDownloadUrl = (path) => {
+  const separator = path.includes("?") ? "&" : "?";
+
+  return `${path}${separator}v=${cvDownloadVersion}`;
+};
+
+const forceFileDownload = async (path, fileName) => {
+  const response = await fetch(buildDownloadUrl(path), {
+    cache: "no-store"
+  });
+
+  if (!response.ok) {
+    throw new Error(`Download failed with status ${response.status}`);
+  }
+
+  const blob = await response.blob();
+  const objectUrl = window.URL.createObjectURL(blob);
+  const temporaryLink = document.createElement("a");
+
+  temporaryLink.href = objectUrl;
+  temporaryLink.download = fileName;
+  document.body.appendChild(temporaryLink);
+  temporaryLink.click();
+  temporaryLink.remove();
+
+  window.setTimeout(() => {
+    window.URL.revokeObjectURL(objectUrl);
+  }, 1000);
+};
+
 if (form) {
   form.addEventListener("submit", async (event) => {
     event.preventDefault();
@@ -157,5 +189,25 @@ if (form) {
 if (sendAnotherButton) {
   sendAnotherButton.addEventListener("click", () => {
     resetContactFormState();
+  });
+}
+
+if (cvDownloadLink) {
+  cvDownloadLink.addEventListener("click", async (event) => {
+    event.preventDefault();
+
+    const filePath = cvDownloadLink.dataset.cvUrl;
+    const fileName =
+      cvDownloadLink.dataset.cvFilename || "Aleksandr_Khomenko_CV_2026_03_21.pdf";
+
+    if (!filePath) {
+      return;
+    }
+
+    try {
+      await forceFileDownload(filePath, fileName);
+    } catch (error) {
+      window.location.href = buildDownloadUrl(filePath);
+    }
   });
 }
